@@ -5,12 +5,11 @@ project(RacoonCore)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-
 add_library(RacoonCore
     src/Core.cpp
 )
 
- add_executable(Sandbox
+add_executable(Sandbox
     Sandbox/main.cpp
 )
 
