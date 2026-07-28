@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(RacoonCore
     src/Core.cpp
+    src/Log.cpp
 )
 
 add_executable(Sandbox
